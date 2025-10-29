@@ -513,7 +513,6 @@ class App:
         self.draw_result(self.gau_number, self.my_life, self.gau_number_1)
         
         if self.my_life == 0 or self.my_life < self.gau_number or self.timer >= 9030:
-            pyxel.mouse(False)
             self.time = True
             self.i = 1
             self.sosu = []
@@ -536,7 +535,6 @@ class App:
             self.run = False
             self.lose_count += 1
         elif self.gau_number == 0:
-            pyxel.mouse(False)
             self.time = True
             self.i = 1
             self.sosu = []
@@ -978,5 +976,6 @@ def draw_hatena():
     draw_picture_1(17 * 1 + 17 * 6 + 1, 17 * 3 + 205, 0, 128, 32, 32, 0)
     draw_picture_1(17 * 1 + 17 * 9 + 1, 17 * 3 + 205, 0, 128, 32, 32, 0)
     draw_picture_1(17 * 1 + 17 * 12 + 1, 17 * 3 + 205, 0, 128, 32, 32, 0)
+
 
 App()
