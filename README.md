@@ -1,4 +1,4 @@
-# gau_kakurenbno
+# gau_kakurenbo
 
 うる虎がーるのかくれんぼチャレンジ！！（がうのかくれんぼチャレンジ！！）
 
